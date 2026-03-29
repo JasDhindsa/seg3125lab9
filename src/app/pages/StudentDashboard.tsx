@@ -76,42 +76,42 @@ export function StudentDashboard() {
         ) : (
           <>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <Card>
+              <Card className="min-h-[120px]">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <p className="text-sm text-gray-600 mb-1">{t('dashboard.upcoming')}</p>
+                    <div className="min-w-0">
+                      <p className="text-sm text-gray-600 mb-1 truncate">{t('dashboard.upcoming')}</p>
                       <p className="text-3xl font-bold text-gray-900">{upcomingSessions.length}</p>
                     </div>
-                    <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center shrink-0 ml-4">
                       <Calendar className="w-6 h-6 text-blue-600" />
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="min-h-[120px]">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <p className="text-sm text-gray-600 mb-1">{t('dashboard.completed')}</p>
+                    <div className="min-w-0">
+                      <p className="text-sm text-gray-600 mb-1 truncate">{t('dashboard.completed')}</p>
                       <p className="text-3xl font-bold text-gray-900">{pastSessions.length}</p>
                     </div>
-                    <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center shrink-0 ml-4">
                       <BookOpen className="w-6 h-6 text-green-600" />
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="min-h-[120px]">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between">
-                    <div>
-                      <p className="text-sm text-gray-600 mb-1">{t('dashboard.total_hours')}</p>
+                    <div className="min-w-0">
+                      <p className="text-sm text-gray-600 mb-1 truncate">{t('dashboard.total_hours')}</p>
                       <p className="text-3xl font-bold text-gray-900">{totalHours.toFixed(1)}</p>
                     </div>
-                    <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center shrink-0 ml-4">
                       <Clock className="w-6 h-6 text-purple-600" />
                     </div>
                   </div>
