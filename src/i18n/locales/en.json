@@ -1,0 +1,109 @@
+
+{
+  "translation": {
+    "nav": {
+      "home": "Home",
+      "search": "Find Tutors",
+      "dashboard": "My Dashboard",
+      "help": "Help",
+      "signin": "Sign In"
+    },
+    "home": {
+      "title": "Connect with Expert Tutors",
+      "subtitle": "Personalized learning to help you reach your full potential.",
+      "find_tutor": "Find a Tutor",
+      "how_it_works": "How it works",
+      "steps": {
+        "search": "Search for tutors in your subject",
+        "book": "Book a session that fits your schedule",
+        "learn": "Learn and grow with expert guidance"
+      }
+    },
+    "search": {
+      "title": "Search Tutors",
+      "placeholder": "Search by tutor or subject...",
+      "filters": "Filters",
+      "filter_subject": "By Subject",
+      "filter_price": "Price per Hour",
+      "filter_rating": "Minimum Rating",
+      "results_found": "tutors found",
+      "no_results": "No tutors found matching your criteria.",
+      "view_profile": "View Profile"
+    },
+    "booking": {
+      "title": "Book a Session",
+      "select_date": "Step 2: Choose Date & Time",
+      "select_time": "Select Time",
+      "confirm": "Confirm Booking",
+      "step1": "Step 1: Select Subject",
+      "step2": "Step 2: Choose Time",
+      "step3": "Step 3: Session Details",
+      "subject_prompt": "What subject would you like help with?",
+      "duration": "Session Duration",
+      "summary": "Booking Summary",
+      "total": "Total",
+      "error_select_subject": "Please select a subject",
+      "success": "Booking Successful!",
+      "success_msg": "Your session has been scheduled.",
+      "back_to_dashboard": "Go to Dashboard"
+    },
+    "days": {
+      "Monday": "Monday",
+      "Tuesday": "Tuesday",
+      "Wednesday": "Wednesday",
+      "Thursday": "Thursday",
+      "Friday": "Friday"
+    },
+    "dashboard": {
+      "title": "Student Dashboard",
+      "subtitle": "Track your learning progress and manage sessions",
+      "upcoming": "Upcoming Sessions",
+      "completed": "Past Sessions",
+      "no_bookings": "No sessions booked yet.",
+      "progress": "Progress",
+      "learning_progress": "Learning Progress",
+      "cancel_title": "Cancel Session?",
+      "cancel_desc": "Are you sure you want to cancel this session? This action cannot be undone.",
+      "keep_session": "Keep Session",
+      "confirm_cancel": "Cancel Session",
+      "total_hours": "Total Hours"
+    },
+    "subjects": {
+      "Mathematics": "Mathematics",
+      "Physics": "Physics",
+      "Chemistry": "Chemistry",
+      "Biology": "Biology",
+      "Computer Science": "Computer Science",
+      "English Literature": "English Literature",
+      "History": "History",
+      "Economics": "Economics",
+      "Psychology": "Psychology",
+      "Statistics": "Statistics"
+    },
+    "common": {
+      "language": "Language",
+      "loading": "Loading...",
+      "error": "Something went wrong.",
+      "save": "Save",
+      "cancel": "Cancel",
+      "all": "All ratings",
+      "back": "Back",
+      "continue": "Continue"
+    },
+    "heuristics": {
+      "help_doc": "Help & Documentation",
+      "help_text": "Need help? Click on the 'Help' icon to see instructions on how to use the app. This feature supports recognition rather than recall."
+    },
+    "help": {
+      "title": "How can we help?",
+      "subtitle": "We're here to support your journey",
+      "search": "Search help...",
+      "popular": "Popular Questions",
+      "contact": "Contact Support",
+      "faqs": [
+        { "q": "How do I book a session?", "a": "Find a tutor, visit their profile, and click 'Book Session'." },
+        { "q": "How do I cancel a booking?", "a": "Go to your Dashboard and click cancel." }
+      ]
+    }
+  }
+}

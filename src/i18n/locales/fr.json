@@ -1,0 +1,110 @@
+
+{
+  "translation": {
+    "nav": {
+      "home": "Accueil",
+      "search": "Trouver des Tuteurs",
+      "dashboard": "Mon Tableau de Bord",
+      "help": "Aide",
+      "signin": "Se Connecter"
+    },
+    "home": {
+      "title": "Connectez-vous avec des Tuteurs Experts",
+      "subtitle": "Un apprentissage personnalisé pour vous aider à atteindre votre plein potentiel.",
+      "find_tutor": "Trouver un Tuteur",
+      "how_it_works": "Comment ça fonctionne",
+      "steps": {
+        "search": "Recherchez des tuteurs dans votre sujet",
+        "book": "Réservez une session qui correspond à votre emploi du temps",
+        "learn": "Apprenez et grandissez avec des conseils d'experts"
+      }
+    },
+    "search": {
+      "title": "Rechercher des Tuteurs",
+      "placeholder": "Rechercher par tuteur ou sujet...",
+      "filters": "Filtres",
+      "filter_subject": "Par Matière",
+      "filter_price": "Prix par Heure",
+      "filter_rating": "Note Minimale",
+      "results_found": "tuteurs trouvés",
+      "no_results": "Aucun tuteur trouvé correspondant à vos critères.",
+      "book_now": "Réserver Maintenant",
+      "view_profile": "Voir le Profil"
+    },
+    "booking": {
+      "title": "Réserver une Session",
+      "select_date": "Étape 2 : Choisir Date & Heure",
+      "select_time": "Choisir l'Heure",
+      "confirm": "Confirmer la Réservation",
+      "step1": "Étape 1 : Choisir le Sujet",
+      "step2": "Étape 2 : Choisir l'Heure",
+      "step3": "Étape 3 : Détails de la Session",
+      "subject_prompt": "Quel sujet voulez-vous aborder ?",
+      "duration": "Durée de la Session",
+      "summary": "Résumé de la Réservation",
+      "total": "Total",
+      "error_select_subject": "Veuillez choisir un sujet",
+      "success": "Réservation Réussie !",
+      "success_msg": "Votre session a été planifiée.",
+      "back_to_dashboard": "Retour au Tableau de Bord"
+    },
+    "days": {
+      "Monday": "Lundi",
+      "Tuesday": "Mardi",
+      "Wednesday": "Mercredi",
+      "Thursday": "Jeudi",
+      "Friday": "Vendredi"
+    },
+    "dashboard": {
+      "title": "Tableau de Bord Étudiant",
+      "subtitle": "Suivez vos progrès d'apprentissage et gérez vos sessions",
+      "upcoming": "Sessions à Venir",
+      "completed": "Sessions Passées",
+      "no_bookings": "Aucune session réservée pour le moment.",
+      "progress": "Progrès",
+      "learning_progress": "Progrès de l'Apprentissage",
+      "cancel_title": "Annuler la Session ?",
+      "cancel_desc": "Êtes-vous sûr de vouloir annuler cette session ? Cette action est irréversible.",
+      "keep_session": "Conserver la Session",
+      "confirm_cancel": "Annuler la Session",
+      "total_hours": "Heures Totales"
+    },
+    "subjects": {
+      "Mathematics": "Mathématiques",
+      "Physics": "Physique",
+      "Chemistry": "Chimie",
+      "Biology": "Biologie",
+      "Computer Science": "Informatique",
+      "English Literature": "Littérature Anglaise",
+      "History": "Histoire",
+      "Economics": "Économie",
+      "Psychology": "Psychologie",
+      "Statistics": "Statistiques"
+    },
+    "common": {
+      "language": "Langue",
+      "loading": "Chargement...",
+      "error": "Une erreur s'est produite.",
+      "save": "Sauvegarder",
+      "cancel": "Annuler",
+      "all": "Toutes les notes",
+      "back": "Retour",
+      "continue": "Continuer"
+    },
+    "heuristics": {
+      "help_doc": "Aide et Documentation",
+      "help_text": "Besoin d'aide ? Cliquez sur l'icône 'Aide' pour voir les instructions d'utilisation de l'application. Cette fonctionnalité favorise la reconnaissance plutôt que le rappel."
+    },
+    "help": {
+      "title": "Comment pouvons-nous vous aider ?",
+      "subtitle": "Nous sommes là pour vous accompagner",
+      "search": "Rechercher de l'aide...",
+      "popular": "Questions Populaires",
+      "contact": "Contacter le Support",
+      "faqs": [
+        { "q": "Comment réserver une session ?", "a": "Trouvez un tuteur, visitez son profil et cliquez sur 'Réserver'." },
+        { "q": "Comment annuler une réservation ?", "a": "Allez sur votre tableau de bord et cliquez sur annuler." }
+      ]
+    }
+  }
+}
