@@ -234,7 +234,7 @@ export function StudentDashboard() {
                     <div>
                       <div className="flex justify-between mb-2">
                         <span className="text-sm font-medium text-gray-700">{t('subjects.Mathematics')}</span>
-                        <span className="text-sm text-gray-600">8 hours</span>
+                        <span className="text-sm text-gray-600">{t('dashboard.hours_count', { count: 8 })}</span>
                       </div>
                       <Progress value={80} className="h-2" />
                     </div>

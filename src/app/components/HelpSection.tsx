@@ -103,28 +103,28 @@ export function HelpSection() {
                                         variant="outline"
                                         size="sm"
                                         className="justify-start gap-2 h-10 border-gray-200 hover:bg-blue-50 hover:text-blue-600 hover:border-blue-100 transition-all"
-                                        onClick={() => handleSupportAction("Live Chat")}
+                                        onClick={() => handleSupportAction(t('help.live_chat'))}
                                     >
                                         <MessageCircle className="w-4 h-4 text-blue-600" />
-                                        Live Chat
+                                        {t('help.live_chat')}
                                     </Button>
                                     <Button
                                         variant="outline"
                                         size="sm"
                                         className="justify-start gap-2 h-10 border-gray-200 hover:bg-blue-50 hover:text-blue-600 hover:border-blue-100 transition-all"
-                                        onClick={() => handleSupportAction("Email Support")}
+                                        onClick={() => handleSupportAction(t('help.email_support'))}
                                     >
                                         <Mail className="w-4 h-4 text-blue-600" />
-                                        Email Support
+                                        {t('help.email_support')}
                                     </Button>
                                     <Button
                                         variant="outline"
                                         size="sm"
                                         className="justify-start gap-2 h-10 border-gray-200 hover:bg-blue-50 hover:text-blue-600 hover:border-blue-100 transition-all"
-                                        onClick={() => handleSupportAction("Phone Support")}
+                                        onClick={() => handleSupportAction(t('help.call_us'))}
                                     >
                                         <Phone className="w-4 h-4 text-blue-600" />
-                                        Call Us
+                                        {t('help.call_us')}
                                     </Button>
                                 </div>
                             </section>

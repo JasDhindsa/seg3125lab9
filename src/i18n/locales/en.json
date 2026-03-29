@@ -66,7 +66,8 @@
       "cancel_desc": "Are you sure you want to cancel this session? This action cannot be undone.",
       "keep_session": "Keep Session",
       "confirm_cancel": "Cancel Session",
-      "total_hours": "Total Hours"
+      "total_hours": "Total Hours",
+      "hours_count": "{{count}} hours"
     },
     "subjects": {
       "Mathematics": "Mathematics",
@@ -100,6 +101,9 @@
       "search": "Search help...",
       "popular": "Popular Questions",
       "contact": "Contact Support",
+      "live_chat": "Live Chat",
+      "email_support": "Email Support",
+      "call_us": "Call Us",
       "faqs": [
         { "q": "How do I book a session?", "a": "Find a tutor, visit their profile, and click 'Book Session'." },
         { "q": "How do I cancel a booking?", "a": "Go to your Dashboard and click cancel." }

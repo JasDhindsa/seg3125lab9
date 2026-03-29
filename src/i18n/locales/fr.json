@@ -67,7 +67,8 @@
       "cancel_desc": "Êtes-vous sûr de vouloir annuler cette session ? Cette action est irréversible.",
       "keep_session": "Conserver la Session",
       "confirm_cancel": "Annuler la Session",
-      "total_hours": "Heures Totales"
+      "total_hours": "Heures Totales",
+      "hours_count": "{{count}} heures"
     },
     "subjects": {
       "Mathematics": "Mathématiques",
@@ -101,6 +102,9 @@
       "search": "Rechercher de l'aide...",
       "popular": "Questions Populaires",
       "contact": "Contacter le Support",
+      "live_chat": "Chat en Direct",
+      "email_support": "Support par Email",
+      "call_us": "Appelez-nous",
       "faqs": [
         { "q": "Comment réserver une session ?", "a": "Trouvez un tuteur, visitez son profil et cliquez sur 'Réserver'." },
         { "q": "Comment annuler une réservation ?", "a": "Allez sur votre tableau de bord et cliquez sur annuler." }
